@@ -1,7 +1,7 @@
-,legislator,party,birthdate
-0,Roger Marshall,R,1960-08-09
-1,Steve Watkins,R,1976-09-18
-2,Sharice Davids,D,1980-05-22
-3,Ron Estes,R,1956-07-19
-4,Pat Roberts,R,1936-04-20
-5,Jerry Moran,R,1954-05-29
+,legislator,party,birthdate,cid,comments
+0,Roger Marshall,R,1960-08-09,N00037034,Running for Senate
+1,Steve Watkins,R,1976-09-18,N00042126,Lost primary
+2,Sharice Davids,D,1980-05-22,N00042626,
+3,Ron Estes,R,1956-07-19,N00040712,
+4,Pat Roberts,R,1936-04-20,N00005285,Retiring at end of 116th
+5,Jerry Moran,R,1954-05-29,N00005282,
