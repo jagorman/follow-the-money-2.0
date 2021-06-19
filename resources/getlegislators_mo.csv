@@ -1,11 +1,11 @@
-,legislator,party,birthdate
-0,William L Clay Jr.,D,1956-07-27
-1,Ann L Wagner,R,1962-09-13
-2,Blaine Luetkemeyer,R,1952-05-07
-3,Vicky Hartzler,R,1960-10-13
-4,Emanuel Cleaver,D,1944-10-26
-5,Sam Graves,R,1963-11-07
-6,Billy Long,R,1955-08-11
-7,Jason Smith,R,1980-06-16
-8,Roy Blunt,R,1950-01-10
-9,Josh Hawley,R,1979-12-31
+,legislator,party,birthdate,cid,comments
+0,William L Clay Jr.,D,1956-07-27,N00012460,Lost primary
+1,Ann L Wagner,R,1962-09-13,N00033106,
+2,Blaine Luetkemeyer,R,1952-05-07,N00030026,
+3,Vicky Hartzler,R,1960-10-13,N00031005,
+4,Emanuel Cleaver,D,1944-10-26,N00026790,
+5,Sam Graves,R,1963-11-07,N00013323,
+6,Billy Long,R,1955-08-11,N00030676,
+7,Jason Smith,R,1980-06-16,N00035282,
+8,Roy Blunt,R,1950-01-10,N00005195,
+9,Josh Hawley,R,1979-12-31,N00041620,
