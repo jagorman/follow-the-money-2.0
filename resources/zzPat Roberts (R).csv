@@ -1,11 +1,11 @@
-,contributor,total,indivs
-0,National Grocers Assn,4500,0
-1,Bristol-Myers Squibb,1000,0
-2,CVS Health,1000,0
-3,Barclays,500,0
-4,AmerisourceBergen Corp,0,0
-5,Amgen Inc,0,0
-6,Blue Cross/Blue Shield,0,0
-7,Burns & McDonnell,0,0
-8,California Dairies Inc,0,0
-9,CME Group,0,0
+,cid,contributor,total,indivs
+0,N00005285,National Grocers Assn,4500,0
+1,N00005285,Bristol-Myers Squibb,1000,0
+2,N00005285,CVS Health,1000,0
+3,N00005285,Barclays,500,0
+4,N00005285,AmerisourceBergen Corp,0,0
+5,N00005285,Amgen Inc,0,0
+6,N00005285,Blue Cross/Blue Shield,0,0
+7,N00005285,Burns & McDonnell,0,0
+8,N00005285,California Dairies Inc,0,0
+9,N00005285,CME Group,0,0

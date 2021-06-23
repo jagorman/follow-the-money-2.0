@@ -1,11 +1,11 @@
-,contributor,total,indivs
-0,Herzog Contracting,36800,36800
-1,Union Pacific Corp,25250,17750
-2,Hallmark Cards,22200,16200
-3,Kansas City Southern,14750,2250
-4,Crawford Group,13600,6100
-5,Invenergy LLC,13200,11200
-6,FedEx Corp,12800,2800
-7,Cubic Corp,12500,0
-8,National Business Aviation Assn,12500,0
-9,Raytheon Technologies,12000,0
+,cid,contributor,total,indivs
+0,N00013323,Herzog Contracting,36800,36800
+1,N00013323,Union Pacific Corp,25250,17750
+2,N00013323,Hallmark Cards,22200,16200
+3,N00013323,Kansas City Southern,14750,2250
+4,N00013323,Crawford Group,13600,6100
+5,N00013323,Invenergy LLC,13200,11200
+6,N00013323,FedEx Corp,12800,2800
+7,N00013323,Cubic Corp,12500,0
+8,N00013323,National Business Aviation Assn,12500,0
+9,N00013323,Raytheon Technologies,12000,0
