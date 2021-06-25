@@ -1,7 +1,7 @@
-,legislator,party,birthdate,cid,comments
-0,Roger Marshall,R,1960-08-09,N00037034,Running for Senate
-1,Steve Watkins,R,1976-09-18,N00042126,Lost primary
-2,Sharice Davids,D,1980-05-22,N00042626,
-3,Ron Estes,R,1956-07-19,N00040712,
-4,Pat Roberts,R,1936-04-20,N00005285,Retiring at end of 116th
-5,Jerry Moran,R,1954-05-29,N00005282,
+,legislator,party,birthdate,cid,State ,comments
+0,Roger Marshall,R,8/9/60,N00037034,KS,Running for Senate
+1,Steve Watkins,R,9/18/76,N00042126,KS,Lost primary
+2,Sharice Davids,D,5/22/80,N00042626,KS,
+3,Ron Estes,R,7/19/56,N00040712,KS,
+4,Pat Roberts,R,4/20/36,N00005285,KS,Retiring at end of 116th
+5,Jerry Moran,R,5/29/54,N00005282,KS,
