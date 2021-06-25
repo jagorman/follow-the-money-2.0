@@ -1,6 +1,18 @@
+* {
+    box-sizing: border-box;
+    font-family: fantasy, sans-serif;
+  }
+  
 
+
+#background-color {
+    background-color: #b13019; 
+    background-position:  top;
+    background-repeat:  repeat;
+  }  
   
+  #header {margin-bottom: 50px;}
   
-  
-  
-  
+  th, td {
+    font-size: 10px;
+  }
