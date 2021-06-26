@@ -36,3 +36,4 @@ model_loss, model_accuracy = model.evaluate(
     X_test_scaled, one_hot_y_test, verbose=2)
 print(
     f"Normal Neural Network - Loss: {model_loss}, Accuracy: {model_accuracy}")
+model.save('contributor_model.h5')
