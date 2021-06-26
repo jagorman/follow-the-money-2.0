@@ -34,6 +34,7 @@ model.fit(X_train_scaled, one_hot_y_train, epochs=60, shuffle=True, verbose=0)
 
 model_loss, model_accuracy = model.evaluate(
     X_test_scaled, one_hot_y_test, verbose=2)
+print(prediction)
 print(
     f"Normal Neural Network - Loss: {model_loss}, Accuracy: {model_accuracy}")
 model.save('contributor_model.h5')
