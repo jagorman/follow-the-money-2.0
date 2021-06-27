@@ -1,17 +1,35 @@
 * {
     box-sizing: border-box;
-    font-family: fantasy, sans-serif;
+    font-family: georgia, serif;
+    font-weight: bold;
+  }
+
+#header {
+  
+  margin-bottom: 50px;
   }
   
+#index-header {
+  color: white;
+  font-weight: bold;
+}  
 
 
-#background-color {
-    background-color: #b13019; 
-    background-position:  top;
-    background-repeat:  repeat;
+#background {
+  background-color: #b13019 ; 
+  background-position:  top;
+  background-repeat:  fill;
+  position: center;
+  top: 30;
+  left: 0;
+  width: 100%;
+  height: 100%;
   }  
-  
-  #header {margin-bottom: 50px;}
+
+
+
+
+
   
   th, td {
     font-size: 10px;
