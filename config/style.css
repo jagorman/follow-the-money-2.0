@@ -8,29 +8,44 @@
   
   margin-bottom: 50px;
   }
-  
+
+
 #index-header {
-  color: white;
+  color: #c0bfbe;
   font-weight: bold;
 }  
 
 
 #background {
   background-color: #b13019 ; 
-  background-position:  top;
+  background-position:  center;
   background-repeat:  fill;
   position: center;
   top: 30;
-  left: 0;
+  left: 30;
   width: 100%;
   height: 100%;
   }  
 
+#navtext {
+ color: #c0bfbe;
+}
 
-
-
-
-  
-  th, td {
+#th, td {
     font-size: 10px;
   }
+
+img {
+  max-width: 100%;
+}
+
+#footer {
+  height: 50px;
+}
+
+#footer-content {
+  text-align: right;
+  color: #c0bfbe;
+  height: 50px; 
+  padding: 8px;
+}
