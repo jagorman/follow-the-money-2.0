@@ -58,8 +58,9 @@ var district1 = new L.GeoJSON(null, { style: myStyle,
       });
       layer.on('click', function () {
         // Data for district goes here
-        window.location = feature.properties.url;
-      });
+      //   window.location = feature.properties.url;
+      selectCan("Roger Marshall")
+       });
     }
   });
 district1.addData(congressional_districts[0].location[0]).addTo(myMap);
@@ -80,7 +81,7 @@ var district2 = new L.GeoJSON(null, { style: myStyle,
       });
       layer.on('click', function () {
         // Data for district goes here
-        window.location = feature.properties.url;
+        selectCan("Steve Watkins")
       });
     }
   });
@@ -101,9 +102,9 @@ var district3 = new L.GeoJSON(null, { style: myStyle,
         });
       });
       layer.on('click', function () {
-        // Data for district goes here
-        window.location = feature.properties.url;
-      });
+      //   // Data for district goes here
+      selectCan("Sharice Davids")
+       });
     }
   });
 district3.addData(congressional_districts[2].location[0]).addTo(myMap);
@@ -122,10 +123,10 @@ var district4 = new L.GeoJSON(null, { style: myStyle,
           'fillColor': '#ff0000'
         });
       });
-      layer.on('click', function () {
-        // Data for district goes here
-        window.location = feature.properties.url;
-      });
+       layer.on('click', function () {
+      //   // Data for district goes here
+      selectCan("Ron Estes")
+       });
     }
   });
 district4.addData(congressional_districts[3].location[0]).addTo(myMap);
