@@ -45,7 +45,7 @@ var district1 = new L.GeoJSON(null, { style: myStyle,
     onEachFeature: function (feature, layer) {
       layer.on('mouseover', function () {
         if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
-            this.bindTooltip('KS District 1').openTooltip();
+            this.bindTooltip('KS District 1 <br> Roger Marshall <br> Top Donors: <br> Nueterra Capital <br> Poet LLC <br> Burns & McDonnell <br><br> KS Senator Jerry Moran <br> Top Donors <br> Live Nation Entertainment <br> Spirit Aerosystems <br> Hilltop Holdings <br><br> KS Senator Pat Roberts <br> Top Donors: <br> National Grocers Assn <br> Bristol-Myers Squibb <br> CVS Health').openTooltip();
         }
         this.setStyle({
           'fillColor': '#0000ff'
@@ -67,7 +67,7 @@ var district2 = new L.GeoJSON(null, { style: myStyle,
     onEachFeature: function (feature, layer) {
       layer.on('mouseover', function () {
         if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
-            this.bindTooltip('KS District 2').openTooltip();
+            this.bindTooltip('KS District 2 <br> Steve Watkins <br> Top Donors: <br> Armstrong Farms <br> Bk2 Holdings <br> Macerich Co <br><br> KS Senator Jerry Moran <br> Top Donors <br> Live Nation Entertainment <br> Spirit Aerosystems <br> Hilltop Holdings <br><br> KS Senator Pat Roberts <br> Top Donors: <br> National Grocers Assn <br> Bristol-Myers Squibb <br> CVS Health').openTooltip();
         }
         this.setStyle({
           'fillColor': '#0000ff'
@@ -89,7 +89,7 @@ var district3 = new L.GeoJSON(null, { style: myStyle,
     onEachFeature: function (feature, layer) {
       layer.on('mouseover', function () {
         if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
-            this.bindTooltip('KS District 3').openTooltip();
+            this.bindTooltip('KS District 3 <br> Sharice Davids <br> Top Donors: <br> Emilys List <br> Democracy Engine <br> United for A Strong America <br><br> KS Senator Jerry Moran <br> Top Donors <br> Live Nation Entertainment <br> Spirit Aerosystems <br> Hilltop Holdings <br><br> KS Senator Pat Roberts <br> Top Donors: <br> National Grocers Assn <br> Bristol-Myers Squibb <br> CVS Health').openTooltip();
         }
         this.setStyle({
           'fillColor': '#0000ff'
@@ -111,7 +111,7 @@ var district4 = new L.GeoJSON(null, { style: myStyle,
     onEachFeature: function (feature, layer) {
       layer.on('mouseover', function () {
         if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
-            this.bindTooltip('KS District 4').openTooltip();
+            this.bindTooltip('KS District 4 <br> Ron Estes <br> Top Donors <br> Spirit Aerosystems <br> Poet LLC <br> Icm Inc  <br><br> KS Senator Jerry Moran <br> Top Donors <br> Live Nation Entertainment <br> Spirit Aerosystems <br> Hilltop Holdings <br><br> KS Senator Pat Roberts <br> Top Donors: <br> National Grocers Assn <br> Bristol-Myers Squibb <br> CVS Health').openTooltip();
         }
         this.setStyle({
           'fillColor': '#0000ff'

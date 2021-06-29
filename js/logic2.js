@@ -8184,7 +8184,7 @@ var congressional_districts = [{
         onEachFeature: function (feature, layer) {
           layer.on('mouseover', function () {
             if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
-                this.bindTooltip('MO District 1').openTooltip();
+                this.bindTooltip('MO District 1 <br> William L Clay Jr. <br> Top Donors: <br> Blackstone Group <br> Rock Holdings <br> American Council of Life Insurers <br><br> Senator Josh Hawley <br> Top Donors: <br> Jones Financial Companies <br> Diamond Pet Foods <br> Hunter Engineering <br><br> Senator Roy Blunt <br> Top Donors: <br> Jones Financial Companies <br> Veterans United Home Loans <br> Charter Communications').openTooltip();
             }
             this.setStyle({
               'fillColor': '#0000ff'
@@ -8206,7 +8206,7 @@ var congressional_districts = [{
         onEachFeature: function (feature, layer) {
           layer.on('mouseover', function () {
             if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
-                this.bindTooltip('MO District 2').openTooltip();
+                this.bindTooltip('MO District 2 <br> Ann L Wagner <br> Top Donors: <br> Jones Financial Companies <br> Votesane PAC <br> Crawford Group <br><br> Senator Josh Hawley <br> Top Donors: <br> Jones Financial Companies <br> Diamond Pet Foods <br> Hunter Engineering <br><br> Senator Roy Blunt <br> Top Donors: <br> Jones Financial Companies <br> Veterans United Home Loans <br> Charter Communications' ).openTooltip();
             }
             this.setStyle({
               'fillColor': '#0000ff'
@@ -8228,7 +8228,7 @@ var congressional_districts = [{
         onEachFeature: function (feature, layer) {
           layer.on('mouseover', function () {
             if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
-                this.bindTooltip('MO District 3').openTooltip();
+                this.bindTooltip('MO District 3 <br> Blaine Luetkemeyer <br> Top Donors: <br> Diamond Pet Foods <br> Rock Holdings <br> Truist Financial <br><br> Senator Josh Hawley <br> Top Donors: <br> Jones Financial Companies <br> Diamond Pet Foods <br> Hunter Engineering <br><br> Senator Roy Blunt <br> Top Donors: <br> Jones Financial Companies <br> Veterans United Home Loans <br> Charter Communications').openTooltip();
             }
             this.setStyle({
               'fillColor': '#0000ff'
@@ -8250,7 +8250,7 @@ var congressional_districts = [{
         onEachFeature: function (feature, layer) {
           layer.on('mouseover', function () {
             if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
-                this.bindTooltip('MO District 4').openTooltip();
+                this.bindTooltip('MO District 4 <br> Vicky Hartzler <br> Top Donors: <br> Production Products <br> Ozarks Coca-Cola Bottling <br> Charles Schwab Corp <br><br> Senator Josh Hawley <br> Top Donors: <br> Jones Financial Companies <br> Diamond Pet Foods <br> Hunter Engineering <br><br> Senator Roy Blunt <br> Top Donors: <br> Jones Financial Companies <br> Veterans United Home Loans <br> Charter Communications ').openTooltip();
             }
             this.setStyle({
               'fillColor': '#0000ff'
@@ -8272,7 +8272,7 @@ var congressional_districts = [{
         onEachFeature: function (feature, layer) {
           layer.on('mouseover', function () {
             if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
-                this.bindTooltip('MO District 5').openTooltip();
+                this.bindTooltip('MO District 5 <br> Emanuel Cleaver <br> Top Donors: <br> Votesane PAC <br> Hallmark Cards <br> Edp Enterprises <br><br> Senator Josh Hawley <br> Top Donors: <br> Jones Financial Companies <br> Diamond Pet Foods <br> Hunter Engineering <br><br> Senator Roy Blunt <br> Top Donors: <br> Jones Financial Companies <br> Veterans United Home Loans <br> Charter Communications').openTooltip();
             }
             this.setStyle({
               'fillColor': '#0000ff'
@@ -8294,7 +8294,7 @@ var congressional_districts = [{
         onEachFeature: function (feature, layer) {
           layer.on('mouseover', function () {
             if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
-                this.bindTooltip('MO District 6').openTooltip();
+                this.bindTooltip('MO District 6 <br> Sam Graves <br> Top Donors: <br> Herzog Contracting <br> Union Pacific Corp <br> Hallmark Cards <br><br> Senator Josh Hawley <br> Top Donors: <br> Jones Financial Companies <br> Diamond Pet Foods <br> Hunter Engineering <br><br> Senator Roy Blunt <br> Top Donors: <br> Jones Financial Companies <br> Veterans United Home Loans <br> Charter Communications').openTooltip();
             }
             this.setStyle({
               'fillColor': '#0000ff'
@@ -8316,7 +8316,7 @@ var congressional_districts = [{
         onEachFeature: function (feature, layer) {
           layer.on('mouseover', function () {
             if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
-                this.bindTooltip('MO District 7').openTooltip();
+                this.bindTooltip('MO District 7 <br> Billy Long <br> Top Donors: <br> Ozarks Coca-Cola Bottling <br> Deutsche Telekom <br> Pinegar Sales <br><br> Senator Josh Hawley <br> Top Donors: <br> Jones Financial Companies <br> Diamond Pet Foods <br> Hunter Engineering <br><br> Senator Roy Blunt <br> Top Donors: <br> Jones Financial Companies <br> Veterans United Home Loans <br> Charter Communications ').openTooltip();
             }
             this.setStyle({
               'fillColor': '#0000ff'
@@ -8338,8 +8338,7 @@ var congressional_districts = [{
         onEachFeature: function (feature, layer) {
           layer.on('mouseover', function () {
             if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
-                this.bindTooltip('MO District 8').openTooltip();
-            }
+                this.bindTooltip('MO District 8 <br> Jason Smith <br> Top Donors: <br> Ernst & Young <br> Pfizer Inc <br> Northwestern Mutual <br><br> Senator Josh Hawley <br> Top Donors: <br> Jones Financial Companies <br> Diamond Pet Foods <br> Hunter Engineering <br><br> Senator Roy Blunt <br> Top Donors: <br> Jones Financial Companies <br> Veterans United Home Loans <br> Charter Communications ').openTooltip(); }
             this.setStyle({
               'fillColor': '#0000ff'
             });
