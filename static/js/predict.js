@@ -5,7 +5,7 @@ checks.html('')
 d3.csv('../../resources/processed_data.csv').then(d => {
     var conts = d.columns.slice(3)
     conts.forEach(element => {
-        checks.append('input').attr('type', 'checkbox').attr('class', `${i}`).attr('name', element)
+        checks.append('input').attr('type', 'checkbox').attr('class', `c${i}`).attr('name', element).attr('onchange', 'clicked()')
         checks.append('label').attr('for', element).text(element)
         checks.append('hr')
         data.push(0)
@@ -13,8 +13,17 @@ d3.csv('../../resources/processed_data.csv').then(d => {
     });
 })
 
-var boxes = d3.selectAll('input')._groups
-console.log(boxes)
+function clicked() {
+    var z = 0
+    for (meh of document.getElementsByTagName('input')) {
+        if (meh.checked == true) {
+            data[z] = 1
+        } else {
+            data[z] = 0
+        }
+        z += 1
+    }
+}
 
 d3.select('#predict_btn').on('click', d => {
     fetch(`http://127.0.0.1:5000/${data}`)
