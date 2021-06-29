@@ -1,11 +1,9 @@
 import pandas as pd
 from sqlalchemy import create_engine
 
-cand_data = pd.read_csv('../../resources/candidate_data.csv')
+
 ks_leg = pd.read_csv('../../resources/getlegislators_ks.csv')
 mo_leg = pd.read_csv('../../resources/getlegislators_mo.csv')
-members = pd.read_csv('../../resources/members.csv')
-rct_totals = pd.read_csv('../../resources/receiptTotals.csv')
 wagner = pd.read_csv('../../resources/zzAnn L Wagner (R).csv')
 long = pd.read_csv('../../resources/zzBilly Long (R).csv')
 luetkemeyer = pd.read_csv('../../resources/zzBlaine Luetkemeyer (R).csv')
@@ -27,11 +25,8 @@ engine = create_engine(
     'postgresql://postgres:postgres@localhost:5432/followthemoney')
 connection = engine.connect()
 
-cand_data.to_sql("candidate_data", connection)
 ks_leg.to_sql("ks_legislators", connection)
 mo_leg.to_sql("mo_legislators", connection)
-members.to_sql("members", connection)
-rct_totals.to_sql("receipt_totals", connection)
 wagner.to_sql("ann_wagner", connection)
 long.to_sql("billy_long", connection)
 luetkemeyer.to_sql("blaine_luetkemeyer", connection)
