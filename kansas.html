@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <title>KANSAS</title>
+  <script src="https://d3js.org/d3.v5.min.js"></script>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
   integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
@@ -42,20 +43,16 @@
               <thead>
 
                 <tr>
-                  <th class="table-head">Name</th>
-                  <th class="table-head">Office</th>
-                  <th class="table-head">Party</th>
-                  <th class="table-head">Total Donations</th>
-                  <th class="table-head">Top Donor</th>
-                  <th class="table-head">Top Company Donor</th>
-                  <th class="table-head">Comments</th>
+                  <th class="table-head">Candidate</th>
+                  <th class="table-head">Contributor</th>
+                  <th class="table-head">Total</th>
                 </tr>
               </thead>
               <tbody></tbody>
             </table>
           </div>
         </div>
-      
+        <script src="./stuff/app.js"></script>
       <div class="col-md-6">
         <div id="map" style="width: 100%; height: 800px"></div>
         <script src="js/logic.js"> </script>
@@ -68,6 +65,7 @@
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
 
+  <script src="./stuff/Kansas.json"></script>
 </body>
 
 </html>
